@@ -1,0 +1,21 @@
+{
+  "name": "Script by wijayasuto",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/sutowijaya/pandanite",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  }
+}
